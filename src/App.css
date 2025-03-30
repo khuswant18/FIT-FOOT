@@ -7,6 +7,7 @@ body {
 :root {
     --text-color : #2e2e2e;
     --button:rgb(180, 94, 180);
+    --red : #D01C28
 }
 nav {
     max-width: 1280px;
@@ -42,6 +43,7 @@ a {
 
 
 .login-button {
+    all: unset;
     font-size: 1.2rem;
     color: rgb(238, 236, 240);
     background-color:var(--button) ;
@@ -49,7 +51,6 @@ a {
     border-radius: 5px;
     padding: 0.3rem 1rem;
     border: none;
-    all: unset;
 }
 
 
@@ -60,8 +61,70 @@ main {
     justify-content: space-between;
 }
 
+
+
 .content {
     display: flex;
     flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 1;
 
 }
+
+.desc {
+    font-size: 1.4rem;
+    font-weight: 450;
+}
+
+.options {
+    display: flex;
+    gap: 1rem;
+}
+.option-button-1 {
+    all: unset;
+    font-size: 1.2rem;
+    color: rgb(238, 236, 240);
+    background-color:var(--red) ;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    border: none;
+}
+
+.option-button-2 {
+    all: unset;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    border: 2px solid black;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+
+}
+
+.shop p{
+    font-size: 1.2rem;
+}
+
+.apps {
+    display: flex;
+    gap: 0.7rem;
+}
+
+
+.main-image {
+    display: flex;
+    align-items: center;
+}
+
+

@@ -7,9 +7,9 @@ const Hero = () => {
 
                 <div className="quote">
                    <h1>
-                    <span>YOUR FEET</span>
-                    <span>DESERVE</span> 
-                    <span>THE BEST</span> 
+                    YOUR FEET<br/>
+                    DESERVE<br/>
+                    THE BEST
                     </h1>
                 </div>
 
@@ -19,16 +19,16 @@ const Hero = () => {
                     </div>
 
                 <div className="options">
-                    <button>Shop Now</button>
-                    <button>Category</button>
+                    <button className="option-button-1">Shop Now</button>
+                    <button className="option-button-2">Category</button>
                 </div>
 
                 <div className="shop">
                     <p>Also Available On:</p>
                     <div className="apps">
-                        <img src="/images/amazon.png" alt="" />
+                        <img src="/images/amazon.png" alt="image-1" />
 
-                        <img src="/images/flipkart.png" alt="" />
+                        <img src="/images/flipkart.png" alt="image-2" />
                     </div>
                 </div>
             </div>
